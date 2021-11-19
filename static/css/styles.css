@@ -1,0 +1,160 @@
+  /* *{
+  background-color: aqua;
+} */
+
+.aboutUs h3,p{
+text-align: center;
+}
+/* .aboutUs p{
+    text-align: center;
+} */
+.services h3{
+    text-align: center;
+}
+.services p{
+    text-align: center;
+}
+.portfolio h3{
+    text-align: center;
+}
+.Contact-Us h3{
+    text-align: center;
+}
+body{
+    color: rgb(3, 3, 3);
+}
+h3{
+    font-family: 'Times New Roman', Times, sans-serif;
+}
+.intro{
+    background-image: url("./backgrounds/h_img.jpg");
+    background-size: cover;
+  text-align: center;
+  color: #ffffff;
+  line-height: 2rem;
+
+}
+.intro p{
+     font-size: small;
+     
+}
+.logo{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.mouse-click{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+.aboutUs{
+    text-align: center;
+    color: #000000;
+    font-size: small;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.5rem;
+}
+.services{
+    background-image: url(./backgrounds/s_image.jpg);
+    background-size: cover;
+    text-align: center;
+    color: #f0f8ff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: small;
+    padding-bottom: 100px;
+    line-height: 1.5rem;
+}
+.hide {
+    display: none;
+}
+.Hover {
+    opacity:0;
+    background-color: rgba(219, 213, 213, 0.623);
+    position: absolute;
+    top:25%;
+    bottom:25%;
+    left:25%;
+    right:25%; 
+  }
+  .custom-info-on-portfolio-images { 
+    height: 300px;
+    max-width: 300px;
+    padding:0.5px;
+
+  } 
+  .row{
+      padding: 2px;
+  }
+  .Contact-Us{
+      background-image: url(/static/css/backgrounds/c_image.jpg);
+      background-size: cover;
+      display: block;
+      padding: 10px;
+  }
+  form{
+
+  }
+  form #contact{
+    background-color: rgba(151, 187, 20, 0);
+ 
+  }
+  input[type=text] {
+    background:transparent;
+    color:  #ffffff;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: 4px;
+    resize: vertical;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 5px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    
+    
+
+  }
+    
+  textarea[type=text] {
+    background:transparent;
+    color: #ffffff;
+    margin-top: 1rem;
+    width: 50%;
+    padding: 12px;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+    resize: vertical;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+  }
+
+  .submit{
+    position:center;
+    padding-left: 25%;
+   margin: auto;
+   display: flex;
+   justify-content: center;
+   display: grid;
+   background: transparent;
+    
+    
+  }
+  
+  .Footer {
+    color: black;
+    justify-content: center;
+    text-align: center;
+    font-size: x-small;
+    font-family: 'Amaranth', sans-serif;
+  }
+  ::placeholder{
+      color: #ffffff;
+  }
