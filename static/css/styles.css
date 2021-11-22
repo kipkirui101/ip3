@@ -96,6 +96,8 @@ h3{
   form{
 
   }
+
+  
   form #contact{
     background-color: rgba(151, 187, 20, 0);
  
@@ -158,6 +160,4 @@ h3{
   ::placeholder{
       color: #ffffff;
   }
-  .form-group{
-    text-align: center;
-  }
+ 
