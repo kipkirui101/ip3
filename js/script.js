@@ -5,7 +5,7 @@
 //   });
 $(document).ready(function() {
 
-    $("#design").click(function(){
+ $("#design").click(function(){
       $("#design-showing").toggle();
       $(".hide-design-image").toggle();
     })
@@ -27,15 +27,20 @@ $(document).ready(function() {
     function(){
       $(this).animate({opacity:'0'});
     })
-  $('.submit').click(function () {
-          var Name = $('#mce-FNAME').val();
-          var Email = $('#mce-EMAIL').val();
-          var Message = $('#mce-MESSAGE');
-          var key ='c8fbd9a0cf3958e02be2822e55cfbfc5-us4';
-          if (Name == '' || Email == '' || Message == '') {
-              alert('Please make sure you have filled in the form correctly!');
-          } else {
-              alert(' Hi ' + Name + ' We have received your message. Thank you for reaching out to us.');
+    $(document).ready(function(){
+      $(document).ready(function(){
+        $("form#form34A").submit(function(event){
+          // event.preventDefault();
+          var name = $("input#MERGE1").val();
+          var email = $("input#MERGE0").val();
+          var message = $("textarea#comment").val();
+          if ($("input#MERGE1").val() && $("input#MERGE0").val()){
+            alert (name + ", we have received your message. Thank you for reaching out to us.");
           }
+          else {
+            alert("Please enter your name and email!");
+          }
+        });
+      });
     });
   });
