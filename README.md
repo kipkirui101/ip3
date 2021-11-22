@@ -4,7 +4,7 @@
 ## Description
 { This is a simle project all about the Delani studio} 
 ## Live Link
- https://kipkirui101.github.io/ip3/
+https://kipkirui101.github.io/ip3/
 ## Setup/Installation Requirements
 * clone the project from github
 * nevigate to the folder from the terminal
