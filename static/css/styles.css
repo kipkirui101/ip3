@@ -158,3 +158,6 @@ h3{
   ::placeholder{
       color: #ffffff;
   }
+  .form-group{
+    text-align: center;
+  }
